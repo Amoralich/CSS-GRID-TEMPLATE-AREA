@@ -1,0 +1,17 @@
+html {
+    background: linear-gradient(to right )
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #fff, #000);
+}
+
+.albums {
+    display: grid;
+    gap: 20px;
+    /*span elements across the page as long as there is enough spae*/
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+}
